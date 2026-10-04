@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>REEFBOUND — Survive. Build. Become.</title>
-  <meta name="description" content="REEFBOUND is a multiplayer island survival adventure. Explore, build, survive and shape the world together.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REEFBOUND — Survival Beyond the Horizon</title>
+  <meta name="description" content="REEFBOUND is an evolving multiplayer survival game where players explore dangerous islands, build floating settlements, fight infected threats and shape the world together.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,75 +13,160 @@
   <header class="nav">
     <a class="brand" href="#top">REEF<span>BOUND</span></a>
     <nav>
-      <a href="#game">GAME</a>
-      <a href="#features">FEATURES</a>
-      <a href="#roadmap">ROADMAP</a>
-      <a href="#community">COMMUNITY</a>
+      <a href="#game">Game</a>
+      <a href="#world">World</a>
+      <a href="#survival">Survival</a>
+      <a href="#multiplayer">Multiplayer</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#community">Community</a>
     </nav>
-    <a class="discord" href="#community">JOIN DISCORD</a>
+    <a class="nav-btn" href="#community">JOIN THE CREW</a>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
       <div class="hero-content">
-        <p class="eyebrow">AN ISLAND SURVIVAL EXPERIENCE</p>
-        <h1>THE OCEAN<br><em>IS YOUR WORLD.</em></h1>
-        <p class="lead">Explore unknown islands. Build your home on the water. Fight, trade, survive and leave your mark on a world shaped by its players.</p>
-        <div class="actions">
-          <a class="btn primary" href="#game">DISCOVER REEFBOUND</a>
-          <a class="btn ghost" href="#roadmap">VIEW ROADMAP</a>
+        <p class="eyebrow">OPEN-WORLD MULTIPLAYER SURVIVAL</p>
+        <h1>REEFBOUND</h1>
+        <p class="hero-sub">SURVIVE. BUILD. EXPLORE. <strong>SHAPE THE WORLD.</strong></p>
+        <p class="hero-copy">A dangerous ocean. Endless islands. Forgotten ruins. Hostile factions. Infected threats. Your story begins wherever the tide leaves you.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#game">EXPLORE THE GAME</a>
+          <a class="button ghost" href="#roadmap">VIEW ROADMAP</a>
         </div>
       </div>
-      <div class="scroll">SCROLL TO EXPLORE <span>↓</span></div>
+      <div class="scroll">SCROLL TO EXPLORE ↓</div>
     </section>
 
-    <section id="game" class="intro section">
-      <div class="section-label">01 / THE GAME</div>
-      <div>
-        <h2>NOT JUST ANOTHER<br><span>SURVIVAL GAME.</span></h2>
-        <p>REEFBOUND combines open-ocean exploration, island survival, crafting, building and multiplayer into a living world where your choices matter.</p>
-        <p class="muted">Every island can become a story. Every base can become a home. Every player can change what comes next.</p>
+    <section id="game" class="section intro">
+      <div class="section-head">
+        <p class="eyebrow">THIS IS REEFBOUND</p>
+        <h2>A SURVIVAL WORLD THAT <em>KEEPS CHANGING</em></h2>
+        <p>REEFBOUND is built around one idea: <strong>the players should help create the world they survive in.</strong> Explore, build, trade, fight, cooperate and leave your mark.</p>
+      </div>
+      <div class="pillars">
+        <article><span>01</span><h3>EXPLORE</h3><p>Discover procedural islands, hidden beaches, jungle paths, shipwrecks, caves, ruins and dangerous waters.</p></article>
+        <article><span>02</span><h3>SURVIVE</h3><p>Manage resources, shelter, equipment and danger while weather, darkness and enemies change the rules.</p></article>
+        <article><span>03</span><h3>BUILD</h3><p>Turn a tiny raft into a floating home, fortified outpost or entire player-made settlement.</p></article>
+        <article><span>04</span><h3>SHAPE</h3><p>Trade, form alliances, create rivalries and help define what happens in the shared world.</p></article>
       </div>
     </section>
 
-    <section id="features" class="features section">
-      <div class="section-label">02 / FEATURES</div>
+    <section id="world" class="section dark">
+      <div class="split">
+        <div>
+          <p class="eyebrow">THE WORLD</p>
+          <h2>NOT JUST AN ISLAND.<br><em>A WHOLE OCEAN.</em></h2>
+          <p>Leave the safety of your starting point and cross an unpredictable world of islands and open water. Every journey can reveal something new.</p>
+          <ul class="checklist">
+            <li>Procedurally generated islands and exploration zones</li>
+            <li>Open ocean travel and floating settlements</li>
+            <li>Jungles, beaches, cliffs, caves and ancient ruins</li>
+            <li>Underwater exploration, reefs and wrecks</li>
+            <li>Dynamic day/night atmosphere and dangerous weather</li>
+            <li>Hidden resources, rare locations and secrets</li>
+          </ul>
+        </div>
+        <div class="world-card">
+          <div class="radar"><div></div></div>
+          <span class="map-label l1">UNKNOWN ISLAND</span>
+          <span class="map-label l2">REEF ZONE</span>
+          <span class="map-label l3">WRECK</span>
+          <span class="map-label l4">DANGER</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="survival" class="section">
+      <div class="section-head">
+        <p class="eyebrow">SURVIVAL LOOP</p>
+        <h2>EVERY DECISION <em>COSTS SOMETHING</em></h2>
+        <p>Start with almost nothing. Learn the environment. Gather what you need. Build something worth defending.</p>
+      </div>
       <div class="feature-grid">
-        <article class="card large"><span>01</span><h3>EXPLORE</h3><p>Discover procedurally generated islands, hidden places, ruins, caves and dangerous waters.</p></article>
-        <article class="card"><span>02</span><h3>SURVIVE</h3><p>Manage resources, weather, threats and the unforgiving ocean.</p></article>
-        <article class="card"><span>03</span><h3>BUILD</h3><p>Create modular bases on land, beaches and floating platforms.</p></article>
-        <article class="card"><span>04</span><h3>FIGHT</h3><p>Face hostile factions, creatures and the infected.</p></article>
-        <article class="card large"><span>05</span><h3>LIVE TOGETHER</h3><p>Play with others, trade, cooperate, compete and build your own community.</p></article>
+        <article class="feature"><b>CRAFTING</b><p>Gather materials and turn them into tools, weapons, equipment and useful survival items.</p></article>
+        <article class="feature"><b>BUILDING</b><p>Create modular structures, bases, docks, defenses and floating construction connected to the ocean.</p></article>
+        <article class="feature"><b>RAFTS & BOATS</b><p>Expand your floating home and use it to reach islands, resources, wrecks and distant regions.</p></article>
+        <article class="feature"><b>COMBAT</b><p>Fight hostile survivors, dangerous factions and infected creatures when diplomacy is no longer enough.</p></article>
+        <article class="feature"><b>LOOT & RESOURCES</b><p>Search abandoned locations, wrecks, ruins and dangerous areas for materials and rare equipment.</p></article>
+        <article class="feature"><b>CHARACTER CREATION</b><p>Create your survivor and develop a character that belongs to your own story.</p></article>
+        <article class="feature"><b>TRADING</b><p>Meet traders and settlements, exchange resources and decide who deserves your trust.</p></article>
+        <article class="feature"><b>SAFE ZONES</b><p>Find places where survivors gather, resupply, trade and prepare for the next expedition.</p></article>
       </div>
     </section>
 
-    <section id="roadmap" class="roadmap section">
-      <div class="section-label">03 / ROADMAP</div>
-      <h2>THE WORLD<br><span>KEEPS GROWING.</span></h2>
+    <section class="section cinematic">
+      <div class="cinematic-copy">
+        <p class="eyebrow">THE THREAT</p>
+        <h2>THE OCEAN ISN'T<br><em>THE ONLY THING</em><br>WATCHING.</h2>
+        <p>Abandoned settlements. Hostile groups. Strange ruins. Infected creatures. Sometimes the safest-looking island is the one you should never enter.</p>
+      </div>
+    </section>
+
+    <section id="multiplayer" class="section dark">
+      <div class="section-head">
+        <p class="eyebrow">MULTIPLAYER</p>
+        <h2>BUILD A CREW.<br><em>OR BUILD A RIVALRY.</em></h2>
+        <p>REEFBOUND is designed around shared stories. Play together, build together, trade, defend your territory or become the reason another crew leaves the island.</p>
+      </div>
+      <div class="multi-grid">
+        <div><strong>CO-OP SURVIVAL</strong><span>Explore and build with your crew.</span></div>
+        <div><strong>PLAYER SETTLEMENTS</strong><span>Create places other survivors can discover.</span></div>
+        <div><strong>TRADING</strong><span>Resources become valuable when people need them.</span></div>
+        <div><strong>FACTIONS</strong><span>Different groups can control different parts of the world.</span></div>
+      </div>
+    </section>
+
+    <section class="section factions">
+      <div class="section-head">
+        <p class="eyebrow">WHO WILL YOU MEET?</p>
+        <h2>A WORLD FULL OF <em>PEOPLE & THREATS</em></h2>
+      </div>
+      <div class="faction-grid">
+        <article><span class="tag">SURVIVORS</span><h3>OUTPOSTS</h3><p>Small communities trying to turn abandoned places into something livable.</p></article>
+        <article><span class="tag">TRADERS</span><h3>TRADING POSTS</h3><p>Reliable places to exchange supplies — if you can afford the price.</p></article>
+        <article><span class="tag">HOSTILE</span><h3>RIVAL GROUPS</h3><p>Territories controlled by groups with their own rules, resources and agendas.</p></article>
+        <article><span class="tag">INFECTED</span><h3>THE UNKNOWN</h3><p>Threats that make abandoned settlements and dark nights much harder to survive.</p></article>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section roadmap">
+      <div class="section-head">
+        <p class="eyebrow">DEVELOPMENT ROADMAP</p>
+        <h2>THE WORLD IS <em>STILL GROWING</em></h2>
+        <p>REEFBOUND is an evolving project. New systems are planned around exploration, survival, multiplayer and player-created experiences.</p>
+      </div>
       <div class="timeline">
-        <div class="phase done"><b>01</b><div><strong>FOUNDATION</strong><p>Core world, ocean, islands, multiplayer and survival systems.</p></div><i>LIVE</i></div>
-        <div class="phase"><b>02</b><div><strong>EXPANSION</strong><p>More islands, encounters, crafting, building and exploration systems.</p></div><i>IN DEVELOPMENT</i></div>
-        <div class="phase"><b>03</b><div><strong>THE LIVING WORLD</strong><p>More factions, traders, safe zones, events and dynamic encounters.</p></div><i>PLANNED</i></div>
-        <div class="phase"><b>04</b><div><strong>BEYOND THE REEF</strong><p>New regions, mysteries and major world expansions.</p></div><i>PLANNED</i></div>
+        <div class="road-item done"><span>01</span><div><small>CORE WORLD</small><h3>OCEAN & ISLAND FOUNDATION</h3><p>Ocean environment, island foundations and the core survival world.</p></div></div>
+        <div class="road-item"><span>02</span><div><small>WORLD GENERATION</small><h3>PROCEDURAL ISLANDS</h3><p>More varied, replayable island generation and exploration zones.</p></div></div>
+        <div class="road-item"><span>03</span><div><small>SURVIVAL</small><h3>DEEPER CRAFTING & PROGRESSION</h3><p>Expanded resources, crafting, equipment, survival progression and loot.</p></div></div>
+        <div class="road-item"><span>04</span><div><small>BUILDING</small><h3>MODULAR PLAYER BASES</h3><p>More modular construction, floating structures, docks, defenses and settlement systems.</p></div></div>
+        <div class="road-item"><span>05</span><div><small>CHARACTER</small><h3>CHARACTER CREATION & CUSTOMIZATION</h3><p>A deeper character creation experience with customization and progression.</p></div></div>
+        <div class="road-item"><span>06</span><div><small>WORLD</small><h3>TRADERS, SAFE ZONES & FACTIONS</h3><p>More settlements, trading systems, faction interactions and places to call home.</p></div></div>
+        <div class="road-item"><span>07</span><div><small>THREATS</small><h3>INFECTED & WORLD EVENTS</h3><p>More enemy types, encounters, airdrops and dynamic events that change exploration.</p></div></div>
+        <div class="road-item"><span>08</span><div><small>MULTIPLAYER</small><h3>THE SHARED WORLD</h3><p>Expand multiplayer systems so players can build communities and create their own stories.</p></div></div>
+        <div class="road-item"><span>09</span><div><small>BEYOND PC</small><h3>PLATFORM EXPANSION</h3><p>Exploring additional platform support as the project develops.</p></div></div>
       </div>
     </section>
 
-    <section id="community" class="community section">
-      <div class="community-art"></div>
-      <div class="community-copy">
-        <div class="section-label">04 / COMMUNITY</div>
-        <h2>THE WORLD IS<br><span>YOURS TO SHAPE.</span></h2>
-        <p>Follow development, share your ideas, meet other survivors and help shape what REEFBOUND becomes.</p>
-        <a class="btn primary" href="#">JOIN THE COMMUNITY</a>
+    <section id="community" class="section community">
+      <div class="community-box">
+        <p class="eyebrow">THE COMMUNITY IS PART OF THE GAME</p>
+        <h2>YOU DON'T JUST <em>PLAY</em> REEFBOUND.</h2>
+        <p>You help shape what it becomes. Feedback, ideas, discoveries and player stories can influence the future of the world.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#">JOIN DISCORD</a>
+          <a class="button ghost" href="https://github.com/levis6tv/Reefbound" target="_blank" rel="noopener">FOLLOW DEVELOPMENT</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
     <div class="brand">REEF<span>BOUND</span></div>
-    <p>© 2026 REEFBOUND. All rights reserved.</p>
-    <div class="footer-links"><a href="#">Discord</a><a href="#">Steam</a><a href="#">Privacy</a></div>
+    <p>Survival beyond the horizon.</p>
+    <small>© 2026 REEFBOUND. All rights reserved.</small>
   </footer>
 
   <script src="script.js"></script>
